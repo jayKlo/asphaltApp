@@ -468,11 +468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jayklo/Projects/asphaltApp/asphaltApp/asphaltApp.csproj",
+      "projectUniqueName": "/Users/jayklo/asphaltApp/asphaltApp/asphaltApp.csproj",
       "projectName": "asphaltApp",
-      "projectPath": "/Users/jayklo/Projects/asphaltApp/asphaltApp/asphaltApp.csproj",
+      "projectPath": "/Users/jayklo/asphaltApp/asphaltApp/asphaltApp.csproj",
       "packagesPath": "/Users/jayklo/.nuget/packages/",
-      "outputPath": "/Users/jayklo/Projects/asphaltApp/asphaltApp/obj/",
+      "outputPath": "/Users/jayklo/asphaltApp/asphaltApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

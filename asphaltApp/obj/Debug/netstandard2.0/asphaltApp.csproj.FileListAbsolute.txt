@@ -12,3 +12,17 @@
 /Users/jayklo/Projects/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/jayklo/Projects/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.dll
 /Users/jayklo/Projects/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.pdb
+/Users/jayklo/asphaltApp/asphaltApp/bin/Debug/netstandard2.0/asphaltApp.deps.json
+/Users/jayklo/asphaltApp/asphaltApp/bin/Debug/netstandard2.0/asphaltApp.dll
+/Users/jayklo/asphaltApp/asphaltApp/bin/Debug/netstandard2.0/asphaltApp.pdb
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.csprojAssemblyReference.cache
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/LoginPage.xaml.g.cs
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/SignUpPage.xaml.g.cs
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.csproj.CoreCompileInputs.cache
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.AssemblyInfoInputs.cache
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.AssemblyInfo.cs
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.dll
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.pdb

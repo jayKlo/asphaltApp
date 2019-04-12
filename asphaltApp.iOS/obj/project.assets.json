@@ -905,11 +905,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jayklo/Projects/asphaltApp/asphaltApp.iOS/asphaltApp.iOS.csproj",
+      "projectUniqueName": "/Users/jayklo/asphaltApp/asphaltApp.iOS/asphaltApp.iOS.csproj",
       "projectName": "asphaltApp.iOS",
-      "projectPath": "/Users/jayklo/Projects/asphaltApp/asphaltApp.iOS/asphaltApp.iOS.csproj",
+      "projectPath": "/Users/jayklo/asphaltApp/asphaltApp.iOS/asphaltApp.iOS.csproj",
       "packagesPath": "/Users/jayklo/.nuget/packages/",
-      "outputPath": "/Users/jayklo/Projects/asphaltApp/asphaltApp.iOS/obj/",
+      "outputPath": "/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -924,8 +924,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/jayklo/Projects/asphaltApp/asphaltApp/asphaltApp.csproj": {
-              "projectPath": "/Users/jayklo/Projects/asphaltApp/asphaltApp/asphaltApp.csproj"
+            "/Users/jayklo/asphaltApp/asphaltApp/asphaltApp.csproj": {
+              "projectPath": "/Users/jayklo/asphaltApp/asphaltApp/asphaltApp.csproj"
             }
           }
         }

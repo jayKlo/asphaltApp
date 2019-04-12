@@ -1092,11 +1092,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jayklo/Projects/asphaltApp/asphaltApp.Android/asphaltApp.Android.csproj",
+      "projectUniqueName": "/Users/jayklo/asphaltApp/asphaltApp.Android/asphaltApp.Android.csproj",
       "projectName": "asphaltApp.Android",
-      "projectPath": "/Users/jayklo/Projects/asphaltApp/asphaltApp.Android/asphaltApp.Android.csproj",
+      "projectPath": "/Users/jayklo/asphaltApp/asphaltApp.Android/asphaltApp.Android.csproj",
       "packagesPath": "/Users/jayklo/.nuget/packages/",
-      "outputPath": "/Users/jayklo/Projects/asphaltApp/asphaltApp.Android/obj/",
+      "outputPath": "/Users/jayklo/asphaltApp/asphaltApp.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1111,8 +1111,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/jayklo/Projects/asphaltApp/asphaltApp/asphaltApp.csproj": {
-              "projectPath": "/Users/jayklo/Projects/asphaltApp/asphaltApp/asphaltApp.csproj"
+            "/Users/jayklo/asphaltApp/asphaltApp/asphaltApp.csproj": {
+              "projectPath": "/Users/jayklo/asphaltApp/asphaltApp/asphaltApp.csproj"
             }
           }
         }
