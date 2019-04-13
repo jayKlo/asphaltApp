@@ -1,5 +1,5 @@
---cache=/Users/jayklo/Projects/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache
---sim=/Users/jayklo/Projects/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/asphaltApp.iOS.app
+--cache=/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache
+--sim=/Users/jayklo/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/asphaltApp.iOS.app
 --executable=asphaltApp.iOS
 --debug
 --sgen-conc
@@ -10,9 +10,9 @@
 --aot-options=-O=-float32
 --http-message-handler=NSUrlSessionHandler
 --abi=x86_64
---symbollist=/Users/jayklo/Projects/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-symbols.list
+--symbollist=/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-symbols.list
 --dsym=no
--r=/Users/jayklo/Projects/asphaltApp/asphaltApp/bin/Debug/netstandard2.0/asphaltApp.dll
+-r=/Users/jayklo/asphaltApp/asphaltApp/bin/Debug/netstandard2.0/asphaltApp.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
@@ -202,7 +202,7 @@
 -r=/Users/jayklo/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/jayklo/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/jayklo/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/jayklo/Projects/asphaltApp/asphaltApp/bin/Debug/netstandard2.0/asphaltApp.dll
+-r=/Users/jayklo/asphaltApp/asphaltApp/bin/Debug/netstandard2.0/asphaltApp.dll
 --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/jayklo/Projects/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/asphaltApp.iOS.exe
+--root-assembly=/Users/jayklo/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/asphaltApp.iOS.exe
 
