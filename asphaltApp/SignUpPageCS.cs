@@ -101,10 +101,11 @@ namespace asphaltApp
             //Implement API calls here
             string encodedEmail = HttpUtility.UrlEncode(user.Email);
             string fullString = "name=" + user.Name + "&email=" + encodedEmail + "&password=" + user.Password + "&password_confirmation=" + user.Password_Conf;
-            var client = new RestClient("http://peakchaos.com");
+            var client = new RestClient("https://peakchaos.com");
             var request = new RestRequest("/api/auth/signup", Method.POST);
-            request.AddHeader("cache-control", "no-cache");
+            //request.AddHeader("cache-control", "no-cache");
             request.AddHeader("Content-Type", "application/x-www-form-urlencoded");
+            request.AddHeader("X-Requested-With", "XMLHttpRequest");
             request.AddParameter("undefined", fullString, ParameterType.RequestBody);
             IRestResponse response = client.Execute(request);
             var content = response.Content;
@@ -112,6 +113,7 @@ namespace asphaltApp
             string apiToken = getBetween(content, "\"api_token\":\"", "\"}}");
             user.apiKey = apiToken;
             // Debugging
+            Console.WriteLine(fullString);
             Console.WriteLine(content);
             Console.WriteLine(apiToken);
             Console.WriteLine(content.GetType());
