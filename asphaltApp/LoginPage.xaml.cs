@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
+using System.Net;
+using System.Web;
+using RestSharp;
+using RestSharp.Authenticators;
 
 namespace asphaltApp
 {
@@ -21,7 +24,7 @@ namespace asphaltApp
         {
             var user = new User
             {
-                Username = usernameEntry.Text,
+                Email = emailEntry.Text,
                 Password = passwordEntry.Text
             };
 
@@ -29,7 +32,12 @@ namespace asphaltApp
             if (isValid)
             {
                 App.IsUserLoggedIn = true;
-                Navigation.InsertPageBefore(new MainPage(), this);
+                //Save local user variables to global Constants 
+                Constants.theName = user.Name;
+                Constants.theEmail = user.Email;
+                Constants.thePassword = user.Password;
+                Constants.theApiTokie = user.apiKey;
+                Navigation.InsertPageBefore(new MainPageCS(), this);
                 await Navigation.PopAsync();
             }
             else
@@ -41,7 +49,58 @@ namespace asphaltApp
 
         bool AreCredentialsCorrect(User user)
         {
-            return user.Username == Constants.Username && user.Password == Constants.Password;
+            user.apiKey = ServerLogin(user);
+            if ((user.apiKey) == "")
+            {
+                return false;
+            }
+            else return true;
+        }
+
+
+        //Server Login
+        public string ServerLogin(User user)
+        {
+            //Implement API calls here
+            string encodedEmail = HttpUtility.UrlEncode(user.Email);
+            string fullString = "email=" + encodedEmail + "&password=" + user.Password;
+            var client = new RestClient("https://peakchaos.com");
+            var request = new RestRequest("/api/auth/login", Method.POST);
+            request.AddHeader("cache-control", "no-cache");
+            request.AddHeader("Content-Type", "application/x-www-form-urlencoded");
+            request.AddParameter("undefined", fullString, ParameterType.RequestBody);
+            IRestResponse response = client.Execute(request);
+            var content = response.Content;
+            //Parse API token
+            string apiToken = getBetween(content, "\"access_token\":\"", "\",\"token_type");
+
+            //Debugging
+
+            Console.WriteLine(content);
+            Console.WriteLine(apiToken);
+            Console.WriteLine(content.GetType());
+            Console.WriteLine(encodedEmail);
+
+
+            return apiToken;
+
+        }
+
+        //Used to parse API token in response
+        public string getBetween(string strSource, string strStart, string strEnd)
+        {
+            int Start, End;
+            if (strSource.Contains(strStart) && strSource.Contains(strEnd))
+            {
+                Start = strSource.IndexOf(strStart, 0) + strStart.Length;
+                End = strSource.IndexOf(strEnd, Start);
+                return strSource.Substring(Start, End - Start);
+            }
+            else
+            {
+                return "";
+            }
         }
     }
 }
+
