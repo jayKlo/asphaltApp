@@ -5,7 +5,21 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="This is the Asphalt App Home Page" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+
+            <Button x:Name="Report"
+        Text="Report A Hazard"
+        Clicked="ReportButton_Clicked"/>
+
+            <Button x:Name="View"
+        Text="View Reports"
+        Clicked="ViewButton_Clicked"/>
+            
+
+
+
+            <Label Text="Asphalt App" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
+    
+    
