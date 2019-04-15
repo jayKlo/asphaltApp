@@ -2,15 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="asphaltApp.LoginPage">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Sign Up" Clicked="OnSignUpButtonClicked" />
-    </ContentPage.ToolbarItems>
+    </ContentPage.ToolbarItems>       
     <ContentPage.Content>
-        <StackLayout VerticalOptions="StartAndExpand">
-            <Label Text="Username" />
-            <Entry x:Name="usernameEntry" Placeholder="username" />
-            <Label Text="Password" />
-            <Entry x:Name="passwordEntry" IsPassword="true" />
-            <Button Text="Login" Clicked="OnLoginButtonClicked" />
+        <StackLayout VerticalOptions="StartAndExpand" Spacing="15" Padding="10" >
+            <Label Text="Email" FontSize="Large" TextColor="white" HorizontalOptions="Center"/>
+            <Entry x:Name="emailEntry" Placeholder="email" />
+            <Label Text="Password" FontSize="Large" TextColor="white" HorizontalOptions="Center" />
+            <Entry x:Name="passwordEntry" IsPassword="true" Placeholder="password" />
+            <Label Text=""/> 
+            <Button Text="Login" Clicked="OnLoginButtonClicked" BackgroundColor="#77C7DB" TextColor="#08204B" />
             <Label x:Name="messageLabel" />
         </StackLayout>
     </ContentPage.Content>
+
 </ContentPage>

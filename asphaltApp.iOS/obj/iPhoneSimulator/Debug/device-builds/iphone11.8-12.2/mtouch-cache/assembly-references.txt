@@ -23,3 +23,4 @@
 /Users/jayklo/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
 /Users/jayklo/asphaltApp/asphaltApp/bin/Debug/netstandard2.0/asphaltApp.dll
 /Users/jayklo/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
+/Users/jayklo/.nuget/packages/restsharp/106.6.9/lib/netstandard2.0/RestSharp.dll

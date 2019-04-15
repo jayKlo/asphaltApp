@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="asphaltApp.SignUpPage">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="StartAndExpand">
-            <Label Text="Username" />
-            <Entry x:Name="usernameEntry" Placeholder="username" />
-            <Label Text="Password" />
-            <Entry x:Name="passwordEntry" IsPassword="true" />
-            <Label Text="Email address" />
-            <Entry x:Name="emailEntry" />
-            <Button Text="Sign Up" Clicked="OnSignUpButtonClicked" />
+        <StackLayout VerticalOptions="StartAndExpand" Spacing="15" Padding="10">
+            <Label Text="Name" FontSize="Large" TextColor="white" HorizontalOptions="Center" />
+            <Entry x:Name="nameEntry" Placeholder="full name" />
+            <Label Text="Email Address" FontSize="Large" TextColor="white" HorizontalOptions="Center"/>
+            <Entry x:Name="emailEntry" Placeholder="email" />
+            <Label Text="Password" FontSize="Large" TextColor="White" HorizontalOptions="Center" />
+            <Entry x:Name="passwordEntry" IsPassword="true" Placeholder="password" />
+            <Label Text="Confirm Password" FontSize="Large" TextColor="White" HorizontalOptions="Center" />
+            <Entry x:Name="confirmPasswordEntry" IsPassword="true" Placeholder="confirm password" />
+            <Label Text=""/>
+            <Button Text="Sign Up" Clicked="OnSignUpButtonClicked" BackgroundColor="#77C7DB" TextColor="#08204B" />
             <Label x:Name="messageLabel" />
+            
         </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>
