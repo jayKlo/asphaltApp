@@ -77,12 +77,10 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -234,7 +232,7 @@
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
-      "sha512": "AK4wVgiJqQQCALZ+2ZFY3UqEyIunVlNSBLAHNyI8bJfLT5c9kHZH3nVF2KUWYd1/2POvaz3xx9K6nSKo6m78Ew==",
+      "sha512": "nATsBTD2CKr4AYN6eRszhX4sptImWmBJwB/U6XKCWWfnCcrTBw8XSCm3QA9gjppkHTr8OkXUY21MR91D3QZXsw==",
       "type": "package",
       "path": "system.numerics.vectors/4.5.0",
       "files": [
@@ -487,23 +485,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/jayklo/.nuget/packages/": {},
+    "/Users/hamiltonho/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jayklo/asphaltApp/asphaltApp/asphaltApp.csproj",
+      "projectUniqueName": "/Users/hamiltonho/asphaltApp/asphaltApp/asphaltApp.csproj",
       "projectName": "asphaltApp",
-      "projectPath": "/Users/jayklo/asphaltApp/asphaltApp/asphaltApp.csproj",
-      "packagesPath": "/Users/jayklo/.nuget/packages/",
-      "outputPath": "/Users/jayklo/asphaltApp/asphaltApp/obj/",
+      "projectPath": "/Users/hamiltonho/asphaltApp/asphaltApp/asphaltApp.csproj",
+      "packagesPath": "/Users/hamiltonho/.nuget/packages/",
+      "outputPath": "/Users/hamiltonho/asphaltApp/asphaltApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/jayklo/.config/NuGet/NuGet.Config"
+        "/Users/hamiltonho/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

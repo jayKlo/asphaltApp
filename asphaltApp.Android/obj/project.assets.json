@@ -426,7 +426,7 @@
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
-      "sha512": "AK4wVgiJqQQCALZ+2ZFY3UqEyIunVlNSBLAHNyI8bJfLT5c9kHZH3nVF2KUWYd1/2POvaz3xx9K6nSKo6m78Ew==",
+      "sha512": "nATsBTD2CKr4AYN6eRszhX4sptImWmBJwB/U6XKCWWfnCcrTBw8XSCm3QA9gjppkHTr8OkXUY21MR91D3QZXsw==",
       "type": "package",
       "path": "system.numerics.vectors/4.5.0",
       "files": [
@@ -1112,20 +1112,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/jayklo/.nuget/packages/": {}
+    "/Users/hamiltonho/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jayklo/asphaltApp/asphaltApp.Android/asphaltApp.Android.csproj",
+      "projectUniqueName": "/Users/hamiltonho/asphaltApp/asphaltApp.Android/asphaltApp.Android.csproj",
       "projectName": "asphaltApp.Android",
-      "projectPath": "/Users/jayklo/asphaltApp/asphaltApp.Android/asphaltApp.Android.csproj",
-      "packagesPath": "/Users/jayklo/.nuget/packages/",
-      "outputPath": "/Users/jayklo/asphaltApp/asphaltApp.Android/obj/",
+      "projectPath": "/Users/hamiltonho/asphaltApp/asphaltApp.Android/asphaltApp.Android.csproj",
+      "packagesPath": "/Users/hamiltonho/.nuget/packages/",
+      "outputPath": "/Users/hamiltonho/asphaltApp/asphaltApp.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/jayklo/.config/NuGet/NuGet.Config"
+        "/Users/hamiltonho/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
@@ -1136,8 +1136,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/jayklo/asphaltApp/asphaltApp/asphaltApp.csproj": {
-              "projectPath": "/Users/jayklo/asphaltApp/asphaltApp/asphaltApp.csproj"
+            "/Users/hamiltonho/asphaltApp/asphaltApp/asphaltApp.csproj": {
+              "projectPath": "/Users/hamiltonho/asphaltApp/asphaltApp/asphaltApp.csproj"
             }
           }
         }
