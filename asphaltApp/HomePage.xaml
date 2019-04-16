@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="asphaltApp.HomePage" BackgroundColor="#08204B" Title="Home">
+    <ContentPage.Content>
+         <ScrollView Padding="10">
+            <StackLayout>
+                
+             <Label Text="{Binding GreetingName}"
+                    TextColor="White"
+                    FontSize= "40"
+                    HorizontalTextAlignment="Start"
+                   />
+            
+            <Button Clicked="TappedAsyncReports"
+                    x:Name="Reports"
+                    BackgroundColor="#77C7DB"
+                    Text="Reports"
+                    TextColor="#08204B"
+                    HeightRequest="80"
+                    BorderColor="White"
+                    BorderWidth="1.5"
+                    FontSize="Large"
+                    CornerRadius="10"
+                    />
+                
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

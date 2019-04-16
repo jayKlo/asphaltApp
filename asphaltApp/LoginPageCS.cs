@@ -73,11 +73,11 @@ namespace asphaltApp
             {
                 App.IsUserLoggedIn = true;
                 //Save local user variables to global Constants 
-                Constants.theName = user.Name;
-                Constants.theEmail = user.Email;
-                Constants.thePassword = user.Password;
-                Constants.theApiTokie = user.apiKey;
-                Navigation.InsertPageBefore(new MainPageCS(), this);
+               // Constants.theName = user.Name;
+              // Constants.theEmail = user.Email;
+               // Constants.thePassword = user.Password;
+               // Constants.theApiTokie = user.apiKey;
+                Navigation.InsertPageBefore(new HomePage(), this);
                 await Navigation.PopAsync();
             }
             else
