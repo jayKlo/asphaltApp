@@ -17,8 +17,12 @@ namespace asphaltApp
             BindingContext = this;
         }
 
+        async void OnHambugerClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SettingsPage());
+        }
 
-       private async void TappedAsyncReports(object sender, EventArgs e)
+        private async void TappedAsyncReports(object sender, EventArgs e)
         {
 
                 await Navigation.PushAsync(new Reports());

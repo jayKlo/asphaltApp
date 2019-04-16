@@ -1,4 +1,5 @@
-﻿using RestSharp;
+﻿using System;
+using RestSharp;
 using System.Web;
 namespace asphaltApp
 {
@@ -71,22 +72,20 @@ namespace asphaltApp
         {
             //API Call to log out of session with server
             App.IsUserLoggedIn = false;
-            string encodedEmail = HttpUtility.UrlEncode(Constants.Email);
-            string logoutReq = "email=" + encodedEmail + "&password=" + Constants.Password;
-            var client = new RestClient("http://206.189.70.144/api/logout");
-            var request = new RestRequest(Method.POST);
+            string logoutReq = Constants.apiTokie;
+            var client = new RestClient("https://peakchaos.com/api/auth/logout");
+            var request = new RestRequest(Method.GET);
             request.AddHeader("cache-control", "no-cache");
-            request.AddHeader("Content-Type", "application/x-www-form-urlencoded");
-            request.AddParameter("undefined", logoutReq, ParameterType.RequestBody);
+            request.AddHeader("Authorization", logoutReq);
             IRestResponse response = client.Execute(request);
 
             //Debugging
-            /*
+
             var content = response.Content;
             Console.WriteLine(logoutReq);
             Console.WriteLine(content);
             Console.WriteLine(Constants.apiTokie);
-            */
+
         }
 
     }

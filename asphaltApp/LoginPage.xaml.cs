@@ -29,6 +29,7 @@ namespace asphaltApp
             };
 
             var isValid = AreCredentialsCorrect(user);
+            Console.WriteLine(isValid);
             if (isValid)
             {
                 App.IsUserLoggedIn = true;
@@ -36,7 +37,7 @@ namespace asphaltApp
                 Constants.TheName = user.Name;
                 Constants.TheEmail = user.Email;
                 Constants.ThePassword = user.Password;
-                Constants.TheApiTokie = user.apiKey;
+                Constants.TheApiTokie = "Bearer " + user.apiKey;
                 Navigation.InsertPageBefore(new HomePage(), this);
                 await Navigation.PopAsync();
             }
