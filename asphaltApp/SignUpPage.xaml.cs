@@ -31,7 +31,8 @@ namespace asphaltApp
                 var signUpSucceeded = ServerSignup(user);
             if (signUpSucceeded && noIssues)
                 {
-                    var rootPage = Navigation.NavigationStack.FirstOrDefault();
+                        messageLabel.Text = "Sign up Successful, Please login now! ";
+                        var rootPage = Navigation.NavigationStack.FirstOrDefault();
                         await Navigation.PopToRootAsync(); 
                 }
                 else
