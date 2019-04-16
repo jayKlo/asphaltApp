@@ -30,7 +30,7 @@ namespace asphaltApp
         async void OnLogoutButtonClicked(object sender, EventArgs e)
         {
             App.IsUserLoggedIn = false;
-            Navigation.InsertPageBefore(new LoginPageCS(), this);
+            Navigation.InsertPageBefore(new LoginPage(), this);
             await Navigation.PopAsync();
         }
     }
