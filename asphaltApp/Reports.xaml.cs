@@ -17,10 +17,5 @@ namespace asphaltApp
 			InitializeComponent();
 		}
 
-        async void HomeButton(object sender, EventArgs e)
-        {
-            Navigation.InsertPageBefore(new MainPage(), this);
-            await Navigation.PopAsync();
-        }
     }
 }

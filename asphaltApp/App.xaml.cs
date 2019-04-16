@@ -10,13 +10,15 @@ namespace asphaltApp
 
         public App()
         {
+            InitializeComponent();
+
             if (!IsUserLoggedIn)
             {
                 MainPage = new NavigationPage(new LoginPage());
             }
             else
             {
-                MainPage = new NavigationPage(new asphaltApp.MainPage());
+                MainPage = new NavigationPage(new asphaltApp.HomePage());
             }
         }
 

@@ -30,6 +30,7 @@ C:/Users/Persephone/Source/Repos/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.dll
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.pdb
+<<<<<<< HEAD
 /Users/hamiltonho/asphaltApp/asphaltApp/bin/Debug/netstandard2.0/asphaltApp.deps.json
 /Users/hamiltonho/asphaltApp/asphaltApp/bin/Debug/netstandard2.0/asphaltApp.dll
 /Users/hamiltonho/asphaltApp/asphaltApp/bin/Debug/netstandard2.0/asphaltApp.pdb
@@ -46,3 +47,7 @@ C:/Users/Persephone/Source/Repos/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/
 /Users/hamiltonho/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/hamiltonho/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.dll
 /Users/hamiltonho/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.pdb
+=======
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/HomePage.xaml.g.cs
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/SettingsPage.xaml.g.cs
+>>>>>>> 8aba6b15173bf36129a4854514e1ea10100c39f1

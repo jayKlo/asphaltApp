@@ -24,25 +24,16 @@ namespace asphaltApp
                     Password = passwordEntry.Text,
                     Password_Conf = confirmPasswordEntry.Text
                 };
-                ServerSignup(user);
+                
                 // Sign up logic goes here
 
-                var signUpSucceeded = AreDetailsValid(user);
-                if (signUpSucceeded)
+                var noIssues = AreDetailsValid(user);
+                var signUpSucceeded = ServerSignup(user);
+            if (signUpSucceeded && noIssues)
                 {
-                    var rootPage = Navigation.NavigationStack.FirstOrDefault();
-                    //Save local variables to global constants
-                    Constants.Name = user.Name;
-                    Constants.Email = user.Email;
-                    Constants.Password = user.Password;
-                    Constants.apiTokie = user.apiKey;
-
-                    if (rootPage != null)
-                    {
-                        App.IsUserLoggedIn = true;
-                       // Navigation.InsertPageBefore(new ChamplainTours.Views.ItemListPage(), Navigation.NavigationStack.First());
-                        await Navigation.PopToRootAsync();
-                    }
+                        messageLabel.Text = "Sign up Successful, Please login now! ";
+                        var rootPage = Navigation.NavigationStack.FirstOrDefault();
+                        await Navigation.PopToRootAsync(); 
                 }
                 else
                 {
@@ -55,7 +46,7 @@ namespace asphaltApp
                 return (!string.IsNullOrWhiteSpace(user.Name) && !string.IsNullOrWhiteSpace(user.Password) && !string.IsNullOrWhiteSpace(user.Email) && user.Email.Contains("@"));
             }
 
-            void ServerSignup(User user)
+            bool ServerSignup(User user)
             {
 
                 //Implement API calls here
@@ -63,38 +54,17 @@ namespace asphaltApp
                 string fullString = "name=" + user.Name + "&email=" + encodedEmail + "&password=" + user.Password + "&password_confirmation=" + user.Password_Conf;
                 var client = new RestClient("https://peakchaos.com");
                 var request = new RestRequest("/api/auth/signup", Method.POST);
-                //request.AddHeader("cache-control", "no-cache");
-                request.AddHeader("Content-Type", "application/x-www-form-urlencoded");
+            //request.AddHeader("cache-control", "no-cache");
                 request.AddHeader("X-Requested-With", "XMLHttpRequest");
+                request.AddHeader("Content-Type", "application/x-www-form-urlencoded");
                 request.AddParameter("undefined", fullString, ParameterType.RequestBody);
                 IRestResponse response = client.Execute(request);
                 var content = response.Content;
-                string apiToken = getBetween(content, "\"api_token\":\"", "\"}}");
-                user.apiKey = apiToken;
-                // Debugging
-                Console.WriteLine(fullString);
                 Console.WriteLine(content);
-                Console.WriteLine(apiToken);
-                Console.WriteLine(content.GetType());
-                Console.WriteLine(encodedEmail);
-                
-
+            if (content.Contains("Successfully")) return true;
+            else return false;
             }
+            
 
-            //Used to parse API token in response
-            public static string getBetween(string strSource, string strStart, string strEnd)
-            {
-                int Start, End;
-                if (strSource.Contains(strStart) && strSource.Contains(strEnd))
-                {
-                    Start = strSource.IndexOf(strStart, 0) + strStart.Length;
-                    End = strSource.IndexOf(strEnd, Start);
-                    return strSource.Substring(Start, End - Start);
-                }
-                else
-                {
-                    return "";
-                }
-            }
         }
     }

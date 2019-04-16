@@ -114,6 +114,10 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\SettingsIcon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\SettingsIcon.imageset\SettingsIcon.png" />
+    <ImageAsset Include="Assets.xcassets\SettingsIcon.imageset\SettingsIcon-1.png" />
+    <ImageAsset Include="Assets.xcassets\SettingsIcon.imageset\SettingsIcon-2.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -133,5 +137,8 @@
       <Project>{0178E67C-1B64-4B06-9B07-15350B2E6509}</Project>
       <Name>asphaltApp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\SettingsIcon.imageset\" />
   </ItemGroup>
 </Project>
