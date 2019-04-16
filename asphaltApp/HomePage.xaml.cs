@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Linq;
 using Xamarin.Forms;
 
 namespace asphaltApp
@@ -9,8 +9,8 @@ namespace asphaltApp
 
     public partial class HomePage : ContentPage
     {
-        //Display user's name on Home Page
-        public string GreetingName { get; } = "Welcome, " + Constants.Name;
+        //Display user's name on Home Page (is displaying email until change is made to API to pass name)
+        public string GreetingName { get; } = "Welcome, " + Constants.Email;
         public HomePage()
         {
             InitializeComponent();
@@ -26,4 +26,5 @@ namespace asphaltApp
         }
 
     }
+    
 }
