@@ -9,12 +9,25 @@ using Xamarin.Forms.Xaml;
 
 namespace asphaltApp
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ReportHazard : ContentPage
     {
         public ReportHazard()
         {
             InitializeComponent();
+        }
+
+        async void TappedAsyncThisLocation(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new ReportHazard());
+
+        }
+
+        async void TappedAsyncOtherLocation(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new ReportHazard());
+
         }
     }
 }

@@ -24,7 +24,6 @@
                         FontSize="Large"
                         CornerRadius="10"
                         />
-                
                 <Button Clicked="TappedAsyncViewReports"
                         x:Name="Reports"
                         BackgroundColor="#acaeaf"

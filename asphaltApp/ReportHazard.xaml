@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="asphaltApp.ReportHazard" BackgroundColor="#63879d" Title="ReportHazard"  >
     <ContentPage.Content>
+       <StackLayout Spacing="40" Padding="20">
+            
+          <Button Clicked="TappedAsyncThisLocation"
+                x:Name="ThisLocation"
+                BackgroundColor="#acaeaf"
+                Text="Report at current location"
+                TextColor="white"
+                FontFamily="avenir-light"
+                HeightRequest="60"
+                BorderColor="White"
+                BorderWidth="1.5"
+                FontSize="Large"
+                CornerRadius="30"
+                />
+          <Button Clicked="TappedAsyncOtherLocation"
+                x:Name="OtherLocation"
+                BackgroundColor="#acaeaf"
+                Text="Report at different location"
+                FontFamily="avenir-light"
+                TextColor="white"
+                HeightRequest="60"
+                BorderColor="White"
+                BorderWidth="1.5"
+                FontSize="Large"
+                CornerRadius="30"
+                />
+            </StackLayout>
     </ContentPage.Content>
 </ContentPage>
