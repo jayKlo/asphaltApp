@@ -4,7 +4,6 @@
         <ToolbarItem Text="Sign Up" Clicked="OnSignUpButtonClicked" />
     </ContentPage.ToolbarItems>       
     <ContentPage.Content>
-    
         <StackLayout VerticalOptions="StartAndExpand" Spacing="15" Padding="10" >
             <Label Text="Asphalt" FontSize="50" FontFamily="avenir-light" TextColor="white" HorizontalOptions="Center"/>
             <Label Text="Colorado's Road Hazard Reporting App" FontSize="18" FontFamily="avenir-light" TextColor="white" HorizontalOptions="Center"/>
@@ -14,7 +13,7 @@
             <Label Text="Password" FontSize="Large" TextColor="white" HorizontalOptions="Center" />
             <Entry x:Name="passwordEntry" IsPassword="true" Placeholder="password" />
             <Label Text=""/> 
-            <Button Text="Login" Clicked="OnLoginButtonClicked" BackgroundColor="#77C7DB" BorderColor="white" BorderWidth="1" TextColor="white" />
+            <Button Text="Login" Clicked="OnLoginButtonClicked" BackgroundColor="#acaeaf" BorderColor="white" BorderWidth="1" TextColor="white" />
             <Label x:Name="messageLabel" />
         </StackLayout>
     </ContentPage.Content>

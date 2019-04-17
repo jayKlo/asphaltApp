@@ -10,7 +10,7 @@ namespace asphaltApp
     public partial class HomePage : ContentPage
     {
         //Display user's name on Home Page (is displaying email until change is made to API to pass name)
-        public string GreetingName { get; } = "Welcome, " + Constants.Email;
+        public string GreetingName { get; } = "Welcome, " + Constants.Name;
         public HomePage()
         {
             InitializeComponent();
@@ -22,7 +22,14 @@ namespace asphaltApp
             await Navigation.PushAsync(new SettingsPage());
         }
 
-        private async void TappedAsyncReports(object sender, EventArgs e)
+        async void TappedAsyncReportHazard(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new ReportHazard());
+
+        }
+
+        async void TappedAsyncViewReports(object sender, EventArgs e)
         {
 
                 await Navigation.PushAsync(new Reports());

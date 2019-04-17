@@ -1,32 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="asphaltApp.HomePage" BackgroundColor="#08204B" Title="Home">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="asphaltApp.HomePage" BackgroundColor="#63879d" Title="Home">
     <ContentPage.ToolbarItems>
         <ToolbarItem Icon="SettingsIcon" Clicked="OnHambugerClicked" />
     </ContentPage.ToolbarItems> 
-    
     <ContentPage.Content>
          <ScrollView Padding="10">
-            <StackLayout>
+            <StackLayout Spacing="50">
+                 <Label Text="{Binding GreetingName}"
+                        TextColor="White"
+                        FontSize= "40"
+                        FontFamily="avenir-light"
+                        HorizontalTextAlignment="Start"
+                       />
+                  <Button Clicked="TappedAsyncReportHazard"
+                        x:Name="ReportHazard"
+                        BackgroundColor="#acaeaf"
+                        Text="Report a Hazard"
+                        TextColor="white"
+                        FontFamily="avenir-light"
+                        HeightRequest="80"
+                        BorderColor="White"
+                        BorderWidth="1.5"
+                        FontSize="Large"
+                        CornerRadius="10"
+                        />
                 
-             <Label Text="{Binding GreetingName}"
-                    TextColor="White"
-                    FontSize= "40"
-                    HorizontalTextAlignment="Start"
-                   />
-            
-            <Button Clicked="TappedAsyncReports"
-                    x:Name="Reports"
-                    BackgroundColor="#77C7DB"
-                    Text="Reports"
-                    TextColor="#08204B"
-                    HeightRequest="80"
-                    BorderColor="White"
-                    BorderWidth="1.5"
-                    FontSize="Large"
-                    CornerRadius="10"
-                    />
-                
-
+                <Button Clicked="TappedAsyncViewReports"
+                        x:Name="Reports"
+                        BackgroundColor="#acaeaf"
+                        Text="View Reports"
+                        FontFamily="avenir-light"
+                        TextColor="white"
+                        HeightRequest="80"
+                        BorderColor="White"
+                        BorderWidth="1.5"
+                        FontSize="Large"
+                        CornerRadius="10"
+                        />
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

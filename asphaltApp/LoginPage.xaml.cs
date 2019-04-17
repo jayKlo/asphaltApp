@@ -30,15 +30,16 @@ namespace asphaltApp
             };
 
             var isValid = AreCredentialsCorrect(user);
-            Console.WriteLine(isValid);
+            //Console.WriteLine(isValid);
             if (isValid)
             {
                 App.IsUserLoggedIn = true;
                 //Save local user variables to global Constants 
-                Constants.TheName = user.Name;
-                Constants.TheEmail = user.Email;
-                Constants.ThePassword = user.Password;
-                Constants.TheApiTokie = "Bearer " + user.apiKey;
+                 Constants.TheName = user.Name;
+                 Constants.TheEmail = user.Email;
+                 Constants.ThePassword = user.Password;
+                 Constants.TheApiTokie = "Bearer " + user.apiKey;
+                 Constants.TheName = getUserName(Constants.apiTokie);
                 Navigation.InsertPageBefore(new HomePage(), this);
                 await Navigation.PopAsync();
             }
@@ -77,12 +78,12 @@ namespace asphaltApp
             string apiToken = getBetween(content, "\"access_token\":\"", "\",\"token_type");
 
             //Debugging
-
+            /*
             Console.WriteLine(content);
             Console.WriteLine(apiToken);
             Console.WriteLine(content.GetType());
             Console.WriteLine(encodedEmail);
-
+            */
 
             return apiToken;
 
@@ -102,6 +103,22 @@ namespace asphaltApp
             {
                 return "";
             }
+        }
+
+        public string getUserName(string token)
+        {
+            string accessToken = token;
+            var client = new RestClient("https://peakchaos.com/api/auth/user");
+            var request = new RestRequest(Method.GET);
+            request.AddHeader("cache-control", "no-cache");
+            request.AddHeader("Authorization", accessToken);
+            IRestResponse response = client.Execute(request);
+            var content = response.Content;
+            //parse the users name from api return
+            string userName = getBetween(content, "\"name\":\"", "\",\"email");
+
+            return userName;
+            Console.WriteLine(content);
         }
     }
 }

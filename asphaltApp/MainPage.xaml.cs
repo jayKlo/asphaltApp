@@ -25,17 +25,6 @@ namespace asphaltApp
             await Navigation.PopAsync();
         }
 
-        async void ReportButton_Clicked(object sender, EventArgs e)
-        {
-            Navigation.InsertPageBefore(new Reports(), this);
-            await Navigation.PopAsync();
-        }
-
-        async void ViewButton_Clicked(object sender, EventArgs e)
-        {
-            Navigation.InsertPageBefore(new ViewReports(), this);
-            await Navigation.PopAsync();
-        }
     }
 
 
