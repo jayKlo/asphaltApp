@@ -17,5 +17,12 @@ namespace asphaltApp
 			InitializeComponent();
 		}
 
+        async void TappedAsyncMapView(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new MapView());
+
+        }
+
     }
 }

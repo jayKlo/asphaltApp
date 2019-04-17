@@ -5,7 +5,20 @@
     <ContentPage.ToolbarItems>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout>
+        
+        <StackLayout Padding="10">
+                  <Button Clicked="TappedAsyncMapView"
+                        x:Name="MapView"
+                        BackgroundColor="#acaeaf"
+                        Text="View Reports Map"
+                        TextColor="white"
+                        FontFamily="avenir-light"
+                        HeightRequest="90"
+                        BorderColor="White"
+                        BorderWidth="1.5"
+                        FontSize="Large"
+                        CornerRadius="20"
+                  />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

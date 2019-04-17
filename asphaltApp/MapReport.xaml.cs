@@ -15,7 +15,7 @@ namespace asphaltApp
             MapSpan.FromCenterAndRadius(
             new Position(37, -122), Distance.FromMiles(0.3)))
             {
-                IsShowingUser = true,
+                IsShowingUser = false,
                 HeightRequest = 100,
                 WidthRequest = 960,
                 VerticalOptions = LayoutOptions.FillAndExpand
