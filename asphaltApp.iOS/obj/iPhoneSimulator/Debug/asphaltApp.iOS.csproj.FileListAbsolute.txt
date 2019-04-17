@@ -117,3 +117,5 @@
 /Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.2/coremlc/_PartialAppManifest.items
 /Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.2/coremlc/_BundleResourceWithLogicalName.items
 /Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.2/optimized/
+/Users/jayklo/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.dll
+/Users/jayklo/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.iOS.dll

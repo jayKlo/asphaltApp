@@ -26,7 +26,7 @@ namespace asphaltApp
         async void TappedAsyncOtherLocation(object sender, EventArgs e)
         {
 
-            await Navigation.PushAsync(new ReportHazard());
+            await Navigation.PushAsync(new MapReport());
 
         }
     }

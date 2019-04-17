@@ -12,7 +12,7 @@
                 HeightRequest="60"
                 BorderColor="White"
                 BorderWidth="1.5"
-                FontSize="Large"
+                FontSize="Medium"
                 CornerRadius="30"
                 />
           <Button Clicked="TappedAsyncOtherLocation"
@@ -24,7 +24,7 @@
                 HeightRequest="60"
                 BorderColor="White"
                 BorderWidth="1.5"
-                FontSize="Large"
+                FontSize="Medium"
                 CornerRadius="30"
                 />
             </StackLayout>

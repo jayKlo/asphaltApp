@@ -32,3 +32,5 @@ C:/Users/Persephone/Source/Repos/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/HomePage.xaml.g.cs
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/SettingsPage.xaml.g.cs
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/ReportHazard.xaml.g.cs
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/MapReport.xaml.g.cs
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/MapView.xaml.g.cs
