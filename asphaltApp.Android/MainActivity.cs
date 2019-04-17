@@ -21,6 +21,7 @@ namespace asphaltApp.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            //Used to import Xamarin Maps
             Xamarin.FormsMaps.Init(this, savedInstanceState);
 
             LoadApplication(new App());
