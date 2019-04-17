@@ -23,6 +23,8 @@ namespace asphaltApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            //Used to import Xamarin Maps
+            Xamarin.FormsMaps.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

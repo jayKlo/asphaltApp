@@ -23,7 +23,6 @@ C:/Users/Persephone/Source/Repos/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/Reports.xaml.g.cs
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/SignUpPage.xaml.g.cs
-/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/ViewReports.xaml.g.cs
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.csproj.CoreCompileInputs.cache
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.AssemblyInfoInputs.cache
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.AssemblyInfo.cs
@@ -32,3 +31,6 @@ C:/Users/Persephone/Source/Repos/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.pdb
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/HomePage.xaml.g.cs
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/SettingsPage.xaml.g.cs
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/ReportHazard.xaml.g.cs
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/MapReport.xaml.g.cs
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/MapView.xaml.g.cs

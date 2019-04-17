@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="asphaltApp.Reports" Title="Reports" >
+             x:Class="asphaltApp.Reports" Title="Reports" BackgroundColor="#63879d">
     <ContentPage.ToolbarItems>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout>
-
-
+        
+        <StackLayout Padding="10">
+                  <Button Clicked="TappedAsyncMapView"
+                        x:Name="MapView"
+                        BackgroundColor="#acaeaf"
+                        Text="View Reports Map"
+                        TextColor="white"
+                        FontFamily="avenir-light"
+                        HeightRequest="90"
+                        BorderColor="White"
+                        BorderWidth="1.5"
+                        FontSize="Large"
+                        CornerRadius="20"
+                  />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

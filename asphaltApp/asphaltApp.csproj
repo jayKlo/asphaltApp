@@ -11,9 +11,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.6.0.264807" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="3.6.0.293080" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
     <PackageReference Include="RestSharp" Version="106.6.9" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="3.6.0.293080" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,9 +25,6 @@
 
   <ItemGroup>
     <EmbeddedResource Update="Reports.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="ViewReports.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
