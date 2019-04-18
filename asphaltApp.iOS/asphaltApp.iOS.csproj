@@ -118,6 +118,10 @@
     <ImageAsset Include="Assets.xcassets\SettingsIcon.imageset\SettingsIcon.png" />
     <ImageAsset Include="Assets.xcassets\SettingsIcon.imageset\SettingsIcon-1.png" />
     <ImageAsset Include="Assets.xcassets\SettingsIcon.imageset\SettingsIcon-2.png" />
+    <ImageAsset Include="Assets.xcassets\LoginBackground.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\LoginBackground.imageset\LoginBackground-2.png" />
+    <ImageAsset Include="Assets.xcassets\LoginBackground.imageset\LoginBackground-3.png" />
+    <ImageAsset Include="Assets.xcassets\LoginBackground.imageset\LoginBackground-1.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -140,5 +144,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets.xcassets\SettingsIcon.imageset\" />
+    <Folder Include="Assets.xcassets\LoginBackground.imageset\" />
   </ItemGroup>
 </Project>

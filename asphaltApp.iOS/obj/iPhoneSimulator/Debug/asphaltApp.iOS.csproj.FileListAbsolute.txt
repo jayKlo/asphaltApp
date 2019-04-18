@@ -104,12 +104,6 @@
 /Users/jayklo/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/jayklo/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/asphaltApp.dll
 /Users/jayklo/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/asphaltApp.pdb
-/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/ibtool/_BundleResourceWithLogicalName.items
-/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/actool/_PartialAppManifest.items
-/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/actool/_BundleResourceWithLogicalName.items
-/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/coremlc/_PartialAppManifest.items
-/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/coremlc/_BundleResourceWithLogicalName.items
-/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/
 /Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/asphaltApp.iOS.csprojAssemblyReference.cache
 /Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/asphaltApp.iOS.csproj.CoreCompileInputs.cache
 /Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
@@ -117,6 +111,7 @@
 /Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/asphaltApp.iOS.exe
 /Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/asphaltApp.iOS.pdb
 /Users/jayklo/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/RestSharp.dll
+<<<<<<< HEAD
 /Users/hamiltonho/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/asphaltApp.iOS.exe
 /Users/hamiltonho/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/asphaltApp.iOS.pdb
 /Users/hamiltonho/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/RestSharp.dll
@@ -177,3 +172,13 @@
 /Users/hamiltonho/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/asphaltApp.iOS.csproj.CopyComplete
 /Users/hamiltonho/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/asphaltApp.iOS.exe
 /Users/hamiltonho/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/asphaltApp.iOS.pdb
+=======
+/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.2/actool/_PartialAppManifest.items
+/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.2/actool/_BundleResourceWithLogicalName.items
+/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.2/coremlc/_PartialAppManifest.items
+/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/jayklo/asphaltApp/asphaltApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.2/optimized/
+/Users/jayklo/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.dll
+/Users/jayklo/asphaltApp/asphaltApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Maps.iOS.dll
+>>>>>>> 0957bbe939f2974e31c16361fe3041399f86908b

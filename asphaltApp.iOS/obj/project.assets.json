@@ -155,13 +155,28 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/3.6.0.293080": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.293080"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "asphaltApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "RestSharp": "106.6.9",
-          "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.264807"
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "3.6.0.293080",
+          "Xamarin.Forms.Maps": "3.6.0.293080"
         },
         "compile": {
           "bin/placeholder/asphaltApp.dll": {}
@@ -325,13 +340,28 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/3.6.0.293080": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.293080"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "asphaltApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "RestSharp": "106.6.9",
-          "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.264807"
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "3.6.0.293080",
+          "Xamarin.Forms.Maps": "3.6.0.293080"
         },
         "compile": {
           "bin/placeholder/asphaltApp.dll": {}
@@ -495,13 +525,28 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/3.6.0.293080": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.293080"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "asphaltApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "RestSharp": "106.6.9",
-          "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.264807"
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "3.6.0.293080",
+          "Xamarin.Forms.Maps": "3.6.0.293080"
         },
         "compile": {
           "bin/placeholder/asphaltApp.dll": {}
@@ -665,13 +710,28 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/3.6.0.293080": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.293080"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "asphaltApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "RestSharp": "106.6.9",
-          "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.264807"
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "3.6.0.293080",
+          "Xamarin.Forms.Maps": "3.6.0.293080"
         },
         "compile": {
           "bin/placeholder/asphaltApp.dll": {}
@@ -941,6 +1001,38 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Maps/3.6.0.293080": {
+      "sha512": "Jmc2o4/tmMAHzDXd5DhmW6F7kJoJi86mvgFBn06vad2suZlJINMWJh6UB3VOnGPg0Le2OeWp40PS7kMSPAm5Jg==",
+      "type": "package",
+      "path": "xamarin.forms.maps/3.6.0.293080",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid81/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Maps.xml",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.3.6.0.293080.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
+      ]
+    },
     "asphaltApp/1.0.0": {
       "type": "project",
       "path": "../asphaltApp/asphaltApp.csproj",
@@ -1011,5 +1103,33 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.1.0 to 1.0.1. Reference the package directly from the project to select a different version. \n asphaltApp.iOS -> asphaltApp -> Xamarin.Essentials (>= 1.1.0) \n asphaltApp.iOS -> Xamarin.Essentials (>= 1.0.1)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 3.6.0.293080 to 3.6.0.264807. Reference the package directly from the project to select a different version. \n asphaltApp.iOS -> asphaltApp -> Xamarin.Forms (>= 3.6.0.293080) \n asphaltApp.iOS -> Xamarin.Forms (>= 3.6.0.264807)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

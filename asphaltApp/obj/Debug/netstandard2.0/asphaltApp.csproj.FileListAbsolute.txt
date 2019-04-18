@@ -23,7 +23,6 @@ C:/Users/Persephone/Source/Repos/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/Reports.xaml.g.cs
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/SignUpPage.xaml.g.cs
-/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/ViewReports.xaml.g.cs
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.csproj.CoreCompileInputs.cache
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.AssemblyInfoInputs.cache
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/asphaltApp.AssemblyInfo.cs
@@ -50,6 +49,12 @@ C:/Users/Persephone/Source/Repos/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/
 =======
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/HomePage.xaml.g.cs
 /Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/SettingsPage.xaml.g.cs
+<<<<<<< HEAD
 >>>>>>> 8aba6b15173bf36129a4854514e1ea10100c39f1
 /Users/hamiltonho/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/HomePage.xaml.g.cs
 /Users/hamiltonho/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/SettingsPage.xaml.g.cs
+=======
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/ReportHazard.xaml.g.cs
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/MapReport.xaml.g.cs
+/Users/jayklo/asphaltApp/asphaltApp/obj/Debug/netstandard2.0/MapView.xaml.g.cs
+>>>>>>> 0957bbe939f2974e31c16361fe3041399f86908b

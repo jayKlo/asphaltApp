@@ -91,6 +91,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\drawable\SettingsIcon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\SettingsIcon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\LoginBackground.png" />
+    <AndroidResource Include="Resources\drawable\LoginBackground.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\LoginBackground.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-hdpi\" />

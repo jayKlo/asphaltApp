@@ -5,14 +5,7 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
-
-            <Button x:Name="Report"
-        Text="Report A Hazard"
-        Clicked="ReportButton_Clicked"/>
-
-            <Button x:Name="View"
-        Text="View Reports"
-        Clicked="ViewButton_Clicked"/>
+        
             
 
 
