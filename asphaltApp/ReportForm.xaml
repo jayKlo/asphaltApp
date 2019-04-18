@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="asphaltApp.ReportForm" Title="Report Form" BackgroundColor="#63879d">
+    <ContentPage.Content>
+        <ScrollView Padding="10">
+        <StackLayout VerticalOptions="StartAndExpand" Spacing="15" Padding="10" >
+            <Label Text="" FontSize="Large" TextColor="white" HorizontalOptions="Center"/>
+            <Label Text="Location" FontFamily="avenir-light" FontSize="Large" TextColor="white" HorizontalOptions="Center" />
+            <Entry x:Name="locationEntry" Placeholder="123 Street, Colorado Springs, CO" />
+            <Label Text="Report Type" FontSize="Large" FontFamily="avenir-light" TextColor="white" HorizontalOptions="Center" />
+            <Picker x:Name="typeReport" 
+                    Title="Pick a report type">
+            <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                      <x:String>Pothole</x:String>
+                      <x:String>Other damage</x:String>
+                      <x:String>Debris on road</x:String>
+                    </x:Array>
+                  </Picker.ItemsSource>
+            </Picker>
+            <Label Text="Description" FontSize="Large" FontFamily="avenir-light" TextColor="white" HorizontalOptions="Center" />
+            <Entry x:Name="reportDescription" Placeholder="Please limit to 100 characters or less.." HeightRequest="100"/>
+            <Label Text=""/> 
+            <Button Text="Submit" Clicked="OnLoginButtonClicked" BackgroundColor="#acaeaf" BorderColor="white" BorderWidth="1" TextColor="white" FontSize="Medium" FontFamily="avenir-light" CornerRadius="20"/>
+            <Label x:Name="messageLabel" />
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

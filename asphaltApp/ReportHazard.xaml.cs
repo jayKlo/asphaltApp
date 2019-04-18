@@ -54,6 +54,7 @@ namespace asphaltApp
             }
 
         }
+        
 
         async void TappedAsyncOtherLocation(object sender, EventArgs e)
         {

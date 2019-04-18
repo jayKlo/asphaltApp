@@ -11,6 +11,15 @@ namespace asphaltApp
         public MapView()
         {
             InitializeComponent();
+
+            var pin = new Pin
+            {
+                Type = PinType.Place,
+                Label = "a pothole",
+                Address = "2040 Dublin Blvd, Colorado Springs CO"
+            };
+
+
             var map = new Map(
             MapSpan.FromCenterAndRadius(
             new Position(Constants.latitude, Constants.longitude), Distance.FromMiles(0.3)))
@@ -21,8 +30,12 @@ namespace asphaltApp
                 VerticalOptions = LayoutOptions.FillAndExpand
             };
             var stack = new StackLayout { Spacing = 0 };
+
+            map.Pins.Add(pin);
             stack.Children.Add(map);
             Content = stack;
+
+
         }
     }
 }
