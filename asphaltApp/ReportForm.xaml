@@ -18,10 +18,9 @@
                   </Picker.ItemsSource>
             </Picker>
             <Label Text="Description" FontSize="Large" FontFamily="avenir-light" TextColor="white" HorizontalOptions="Center" />
-            <Entry x:Name="reportDescription" Placeholder="Please limit to 100 characters or less.." HeightRequest="100"/>
+            <Editor x:Name="reportDescription" Placeholder="Please limit to 100 characters or less.." HeightRequest="100"/>
             <Label Text=""/> 
-            <Button Text="Submit" Clicked="OnLoginButtonClicked" BackgroundColor="#acaeaf" BorderColor="white" BorderWidth="1" TextColor="white" FontSize="Medium" FontFamily="avenir-light" CornerRadius="20"/>
-            <Label x:Name="messageLabel" />
+            <Button Text="Submit" Clicked="TappedAsyncSubmitForm" BackgroundColor="#acaeaf" BorderColor="white" BorderWidth="1" TextColor="white" FontSize="Medium" FontFamily="avenir-light" CornerRadius="20"/>
         </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -11,5 +11,12 @@ namespace asphaltApp
         {
             InitializeComponent();
         }
+
+        async void TappedAsyncSubmitForm(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new ThanksPage());
+
+        }
     }
 }

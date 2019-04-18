@@ -29,7 +29,7 @@ namespace asphaltApp
                 if (location != null)
                 {
                     Console.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
-                    await Navigation.PushAsync(new MapReport());
+                    await Navigation.PushAsync(new ReportForm());
                 }
             }
             catch (FeatureNotSupportedException fnsEx)
