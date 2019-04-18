@@ -13,7 +13,7 @@ namespace asphaltApp
             InitializeComponent();
             var map = new Map(
             MapSpan.FromCenterAndRadius(
-            new Position(37, -122), Distance.FromMiles(0.3)))
+            new Position(Constants.latitude, Constants.longitude), Distance.FromMiles(0.3)))
             {
                 IsShowingUser = false,
                 HeightRequest = 100,

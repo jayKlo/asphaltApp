@@ -21,6 +21,9 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/lib/mono/Xamarin.iOS/System.Web.Services.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/lib/mono/Xamarin.iOS/System.Xml.Linq.dll
 /Users/jayklo/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
+/Users/jayklo/.nuget/packages/xamarin.forms.maps/3.6.0.293080/lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll
+/Users/jayklo/.nuget/packages/xamarin.forms.maps/3.6.0.293080/lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll
 /Users/jayklo/asphaltApp/asphaltApp/bin/Debug/netstandard2.0/asphaltApp.dll
 /Users/jayklo/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
 /Users/jayklo/.nuget/packages/restsharp/106.6.9/lib/netstandard2.0/RestSharp.dll
+/Users/jayklo/.nuget/packages/xamarin.essentials/1.0.1/lib/xamarinios10/Xamarin.Essentials.dll
