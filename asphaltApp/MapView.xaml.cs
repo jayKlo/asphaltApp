@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-
-using Xamarin.Forms;
 using Xamarin.Forms.Maps;
+using Xamarin.Forms;
+using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace asphaltApp
 {
@@ -11,18 +12,51 @@ namespace asphaltApp
         public MapView()
         {
             InitializeComponent();
-            var map = new Map(
-            MapSpan.FromCenterAndRadius(
-            new Position(37, -122), Distance.FromMiles(0.3)))
-            {
-                IsShowingUser = false,
-                HeightRequest = 100,
-                WidthRequest = 960,
-                VerticalOptions = LayoutOptions.FillAndExpand
-            };
-            var stack = new StackLayout { Spacing = 0 };
-            stack.Children.Add(map);
-            Content = stack;
         }
+
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            Map map = new Map();
+
+
+            await getReportLocations(map);
+
+            // Build the page.
+            Content = new StackLayout
+            {
+                Children =
+                {
+                    map
+                }
+            };
+
+        }
+
+        // Get locations of all reports and display as pins on map
+        public async Task getReportLocations(Map map)
+        {
+            var reportLocations = await JsonHelper.GetReportsAsync();
+            reportLocations.ForEach((Report) =>
+            {
+
+                Position position = new Position(Report.reportLat, Report.reportLong);
+                map.MoveToRegion(new MapSpan(position, 0.01, 0.01));
+                map.Pins.Add(new Pin
+                {
+                    Label = Report.title + " , " + Report.description,
+                    Position = position
+                });
+
+                Console.WriteLine("Location found for report: " + Report.title + " at: " + Report.reportLat + " , " + Report.reportLong);
+
+            });
+
+
+        }
+            
+
     }
 }

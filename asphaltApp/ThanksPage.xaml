@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="asphaltApp.ThanksPage" BackgroundColor="#63879d">
+    <ContentPage.Content>
+        <ScrollView Padding="10">
+            <StackLayout VerticalOptions="StartAndExpand" Spacing="5" Padding="10" >
+                <Label Text="Thank you" FontSize="40" FontFamily="avenir-light" TextColor="white" HorizontalOptions="Center"/>
+                <Label Text="Your report has been successfully submitted" FontSize="17" FontFamily="avenir-light" TextColor="white" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="" FontSize="50" FontFamily="avenir-light" TextColor="white" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="" FontSize="50" FontFamily="avenir-light" TextColor="white" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="" FontSize="50" FontFamily="avenir-light" TextColor="white" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="The information you submitted will be sent to" FontSize="15" FontFamily="avenir-light" TextColor="white" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="the Colorado Department of Transportation" FontSize="15" FontFamily="avenir-light" TextColor="white" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="for further review" FontSize="15" FontFamily="avenir-light" TextColor="white" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="" FontSize="15" FontFamily="avenir-light" TextColor="white" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="" FontSize="50" FontFamily="avenir-light" TextColor="white" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="" FontSize="50" FontFamily="avenir-light" TextColor="white" HorizontalOptions="CenterAndExpand"/>
+                <Button Text="Home" Clicked="TappedAsyncHome" BackgroundColor="#acaeaf" BorderColor="white" BorderWidth="1" TextColor="white" FontSize="Large" FontFamily="avenir-light" CornerRadius="20"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

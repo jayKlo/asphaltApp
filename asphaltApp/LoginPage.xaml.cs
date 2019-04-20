@@ -30,7 +30,7 @@ namespace asphaltApp
             };
 
             var isValid = AreCredentialsCorrect(user);
-            //Console.WriteLine(isValid);
+
             if (isValid)
             {
                 App.IsUserLoggedIn = true;
@@ -40,8 +40,8 @@ namespace asphaltApp
                  Constants.ThePassword = user.Password;
                  Constants.TheApiTokie = "Bearer " + user.apiKey;
                  Constants.TheName = getUserName(Constants.apiTokie);
-                Navigation.InsertPageBefore(new HomePage(), this);
-                await Navigation.PopAsync();
+                 Navigation.InsertPageBefore(new HomePage(), this);
+                 await Navigation.PopAsync();
             }
             else
             {
@@ -89,7 +89,7 @@ namespace asphaltApp
 
         }
 
-        //Used to parse API token in response
+        //Used to parse information from the API response
         public string getBetween(string strSource, string strStart, string strEnd)
         {
             int Start, End;
@@ -104,7 +104,7 @@ namespace asphaltApp
                 return "";
             }
         }
-
+        //Used 
         public string getUserName(string token)
         {
             string accessToken = token;
@@ -118,7 +118,6 @@ namespace asphaltApp
             string userName = getBetween(content, "\"name\":\"", "\",\"email");
 
             return userName;
-            Console.WriteLine(content);
         }
     }
 }

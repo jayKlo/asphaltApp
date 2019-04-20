@@ -15,7 +15,8 @@ namespace asphaltApp
         public static int? tripID = null; //Null if no trip is assigned
         public static string phoneNumber = "";
         public static string avatar = "";
-
+        public static double latitude = 0;
+        public static double longitude = 0;
 
 
         public static string TheName
@@ -66,6 +67,18 @@ namespace asphaltApp
         {
             get { return phoneNumber; }
             set { phoneNumber = value; }
+        }
+
+        public static double TheLatitude
+        {
+            get { return latitude; }
+            set { latitude = value; }
+        }
+
+        public static double TheLongitude
+        {
+            get { return longitude; }
+            set { longitude = value; }
         }
 
         public static void LogoutUser()
