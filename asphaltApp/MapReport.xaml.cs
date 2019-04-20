@@ -11,6 +11,7 @@ namespace asphaltApp
         public MapReport()
         {
             InitializeComponent();
+
             var map = new Map(
             MapSpan.FromCenterAndRadius(
             new Position(Constants.latitude, Constants.longitude), Distance.FromMiles(0.3)))
